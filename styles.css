@@ -4,7 +4,6 @@ body {
 }
 
 .barra-navegacion {
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -13,11 +12,10 @@ body {
     list-style-type: none;
     padding: 0;
     display: flex;
+    justify-content: space-around;
+    flex-flow: nowrap;
 }
 
-.barra-navegacion li {
-    margin: 0 30px;
-}
 
 .barra-navegacion a {
     text-decoration: none;
