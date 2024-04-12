@@ -1,0 +1,31 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-size: 32px;
+}
+
+.barra-navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-navegacion ul {
+    list-style-type: none; /* Elimina las viñetas */
+    padding: 0;
+    display: flex;
+}
+
+.barra-navegacion li {
+    margin: 0 30px; /* Espacio horizontal entre elementos */
+}
+
+.barra-navegacion a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: black; /* Color negro para los enlaces */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.barra-navegacion a:hover {
+    color: blue; /* Cambia el color al pasar el mouse */
+}
