@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     margin: 0;
     font-size: 32px;
@@ -11,21 +10,21 @@ body {
 }
 
 .barra-navegacion ul {
-    list-style-type: none; /* Elimina las viñetas */
+    list-style-type: none;
     padding: 0;
     display: flex;
 }
 
 .barra-navegacion li {
-    margin: 0 30px; /* Espacio horizontal entre elementos */
+    margin: 0 30px;
 }
 
 .barra-navegacion a {
-    text-decoration: none; /* Elimina el subrayado */
-    color: black; /* Color negro para los enlaces */
-    transition: color 0.3s; /* Transición suave para el cambio de color */
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
 }
 
 .barra-navegacion a:hover {
-    color: blue; /* Cambia el color al pasar el mouse */
+    color: blue;
 }
